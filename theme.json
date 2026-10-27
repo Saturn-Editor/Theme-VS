@@ -1,7 +1,7 @@
 {
   "id": "vs",
   "name": "VS",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A theme based on Visual Studio.",
   "light": {
     "colors": {
@@ -58,6 +58,7 @@
       { "scope": "markup.italic", "color": "neutral-800", "fontStyle": "italic" },
       { "scope": "markup.strikethrough", "color": "neutral-500", "fontStyle": "strikethrough" },
       { "scope": "markup.inline.raw", "color": "red-800" },
+      { "scope": "markup.raw.block", "color": "red-800" },
       { "scope": "markup.fenced_code.block", "color": "neutral-800" },
       { "scope": "fenced_code.block.language", "color": "cyan-700" },
       { "scope": "markup.underline.link", "color": "sky-700" },
@@ -65,7 +66,6 @@
       { "scope": "string.other.link.description", "color": "red-800" },
       { "scope": "markup.quote", "color": "green-700" },
       { "scope": "punctuation.definition.quote.begin" },
-      { "scope": "markup.list", "color": "neutral-500" },
       { "scope": "punctuation.definition.list.begin", "color": "blue-800" },
       { "scope": "markup.checkbox", "color": "blue-800" },
       { "scope": "punctuation.separator.table", "color": "neutral-500" },
@@ -134,6 +134,7 @@
       { "scope": "markup.italic", "color": "neutral-200", "fontStyle": "italic" },
       { "scope": "markup.strikethrough", "color": "neutral-400", "fontStyle": "strikethrough" },
       { "scope": "markup.inline.raw", "color": "orange-300" },
+      { "scope": "markup.raw.block", "color": "orange-300" },
       { "scope": "markup.fenced_code.block", "color": "neutral-200" },
       { "scope": "fenced_code.block.language", "color": "teal-400" },
       { "scope": "markup.underline.link", "color": "sky-300" },
@@ -141,7 +142,6 @@
       { "scope": "string.other.link.description", "color": "orange-300" },
       { "scope": "markup.quote", "color": "green-600" },
       { "scope": "punctuation.definition.quote.begin" },
-      { "scope": "markup.list", "color": "neutral-400" },
       { "scope": "punctuation.definition.list.begin", "color": "blue-400" },
       { "scope": "markup.checkbox", "color": "blue-400" },
       { "scope": "punctuation.separator.table", "color": "neutral-400" },
