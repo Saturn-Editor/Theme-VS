@@ -1,7 +1,7 @@
 {
   "id": "vs",
   "name": "VS",
-  "version": "1.2.0,
+  "version": "1.2.0",
   "description": "A theme based on Visual Studio.",
   "fonts": {
     "ui": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
