@@ -1,8 +1,12 @@
 {
   "id": "vs",
   "name": "VS",
-  "version": "1.1.2",
+  "version": "1.2.0,
   "description": "A theme based on Visual Studio.",
+  "fonts": {
+    "ui": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "editor": "\"Cascadia Mono\", Consolas, ui-monospace, Menlo, monospace"
+  },
   "light": {
     "colors": {
       "app": "neutral-100",
@@ -17,7 +21,9 @@
       "accent": "sky-600",
       "on-accent": "white",
       "selection": "sky-200/70",
-      "hover": "black/5"
+      "hover": "black/5",
+      "error": "red-600",
+      "warning": "orange-500"
     },
     "syntax": [
       { "scope": "comment", "color": "green-700" },
@@ -90,7 +96,9 @@
       "accent": "sky-600",
       "on-accent": "white",
       "selection": "sky-800/60",
-      "hover": "white/10"
+      "hover": "white/10",
+      "error": "red-500",
+      "warning": "orange-400"
     },
     "syntax": [
       { "scope": "comment", "color": "green-600" },
